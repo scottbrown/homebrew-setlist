@@ -5,7 +5,7 @@ PACKAGE = 'setlist'
 REPO = "https://github.com/scottbrown/#{PACKAGE}"
 
 # Homebrew formula
-class AwsConfigCreator < Formula
+class SetList < Formula
   desc 'Command line tool to automatically generate a .aws/config file based on AWS SSO rules in your org.'
   homepage REPO
   license 'MIT'
